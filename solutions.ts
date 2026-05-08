@@ -3,3 +3,6 @@ const filterEvenNumbers =(array : number[]) : number[]=>{
 }
 
 
+const reverseString=(str : string) : string =>{
+    return str.split('').reverse().join('')
+}
