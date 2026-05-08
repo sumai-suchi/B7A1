@@ -1,11 +1,11 @@
 # How Do Generics Make Code Reusable and Strictly Typed in TypeScript?
----
+
 # Introduction 
 
 TypeScript generics allow us to write flexible and reusable code while maintaining strict type safety.
 It lets us create templates that works with different types without losing type checking. In this blog we 
 will learn about how generics help us achieve code reusability and type checking in the same time.
----
+
 ## Body 
 
 In JavaScript, we can use variables to store different types of data. Similarly, in TypeScript, we use generics so that we can reuse a function for different data types.Here, we use `T` as a generic type, which represents the type of the passed data. It can handle any data type such as string, number, object, or array.
