@@ -30,3 +30,19 @@ const checkType=(type : StringOrNumber ) : string =>
 const getProperty =<X extends object , K extends keyof X>(obj : X , key : K ): X[K] =>{
     return obj[key];
 }
+
+//Problem - 5
+
+interface Book {
+    title : string;
+    author : string;
+    publishedYear :number;
+}
+
+const toggleReadStatus =(book : Book) : Book & {isRead : boolean} => {
+    return {
+        ...book , 
+        isRead: true
+    }
+}
+
